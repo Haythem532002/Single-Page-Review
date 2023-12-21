@@ -1,0 +1,87 @@
+body {
+  font-family: sans-serif;
+  background-color: #F8FAFC;
+}
+.title {
+  width: 100%;
+  padding-top:50px ;
+  position: relative;
+}
+.container {
+  position: relative;
+}
+.title h2 {
+  color:rgb(34, 58, 131) ;
+  text-align: center;
+  margin: 0;
+}
+.title .underline {
+  left: 50%;
+  position: absolute;
+  margin-top: 15px;
+  transform: translateX(-50%);
+  background-color: rgb(98, 185, 239);
+  width: 100px;
+  height: 2px;
+}
+section .image {
+  position: relative;
+}
+section .image img {
+  width: 150px;
+  height: 150px;
+  max-width: 100%;
+  border-radius: 50%;
+  box-shadow: 10px -5px 0px 0px #645CFF;
+  object-fit: cover;
+}
+.quote {
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #645CFF;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+.review {
+  width: 40%;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 100px;
+  background-color: white;
+  padding: 20px;
+}
+.review h2 {
+  text-transform: capitalize;
+  font-weight: normal;
+  font-size:30px;
+}
+.review .job{
+  text-transform: uppercase;
+  color:#645CFF ;
+}
+.review .text {
+  width: 100%;
+  text-align: center;
+  line-height: 1.9;
+  color: #475569;
+}
+.navigate {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  color: #3c3799;
+  font-size: 20px;
+}
+.surprise {
+  color: #645cff;
+  background-color: #c1beff;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
